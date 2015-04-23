@@ -1,6 +1,9 @@
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5851fd9af16c1a66efd78890cc3511a12e21abc1
 /***************************************
  * Filename: thread_test.c
  * Title: Creating/terminating threads(1)
@@ -28,7 +31,9 @@ void* myThread( void *arg )
 
 void print(void)
 {
-	printk("fjfjfjfj");
+	printf("fjfjfjfj");
+
+	return;
 }
 
 //-------------------------------------------------------------
