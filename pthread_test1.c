@@ -21,6 +21,13 @@ void* myThread( void *arg )
 	//fix the issue!!
 
 }
+
+
+void print(void)
+{
+	printk("fjfjfjfj");
+}
+
 //-------------------------------------------------------------
 int main( void )
 {
