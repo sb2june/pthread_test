@@ -18,6 +18,9 @@ void* Thread( void *arg )
     for ( i=0; i<3; i++ )
         printf( "thread %d: %dth iteration\n", *(int*)arg, i );
     pthread_exit(0);  /* 쓰레드 종료 함수 */
+
+	//fix the issue!!
+
 }
 //-------------------------------------------------------------
 int main( void )
@@ -33,6 +36,7 @@ int main( void )
                         &thread_args[i] );          /* 생성된 쓰레드에 전달 인자 */
     
     pthread_exit(0); /*메인 쓰레드 종료 */
+
 }
 
 /****************************************
