@@ -1,6 +1,3 @@
-
-
-
 /***************************************
  * Filename: thread_test.c
  * Title: Creating/terminating threads(1)
@@ -29,6 +26,8 @@ void* myThread( void *arg )
 void print(void)
 {
 	printf("fjfjfjfj");
+
+	return;
 }
 
 //-------------------------------------------------------------
